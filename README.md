@@ -1,9 +1,9 @@
 ### environment
-java 9
-gradle 4.6
-spring boot 2.0
-idea
-Ubuntu
+* java 9
+* gradle 4.6
+* spring boot 2.0
+* idea
+* Ubuntu
 
 ### install gradle
 You can follow below blog to install gradle:<br/>
