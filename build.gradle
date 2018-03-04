@@ -2,6 +2,10 @@ buildscript {
 	ext {
 		springBootVersion = '2.0.0.RELEASE'
 	}
+
+    ext['thymeleaf.version'] = '3.0.9.RELEASE'
+    ext['thymeleaf-layout-dialect.version'] = '2.3.0'
+
 	repositories {
 		mavenCentral()
 	}
@@ -27,5 +31,6 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
